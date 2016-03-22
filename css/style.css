@@ -130,7 +130,7 @@ header p {
 
 /***** TEAM MEMBERS SECTION ******/
 
-section#team {
+#team {
 	background: #e7f1f8;
 	color: #3c4761;
 	text-align: center;
@@ -145,19 +145,19 @@ section#team {
 	margin: 0;
 }
 
-.section-desc {
+#team .section-desc {
 	font-size: 1.8rem;
 	margin-bottom: 72px;
 }
 
-.team-member {
+#team .team-member {
 	width: 21%;
 	float: left;
 	margin: 0 2%;
 	box-sizing: border-box;
 }
 
-.round-image {
+#team .round-image {
 	width: 200px;
 	height: 200px;
 	background: #878787;
@@ -165,12 +165,12 @@ section#team {
 	margin-bottom: 37px;
 }
 
-#team article.team-member h2 {
+#team .team-member h2 {
 	font-size: 2.4rem;
 	padding: 0 0 8px 0;
 }
 
-.team-position {
+#team .team-position {
 	color: #48c1e9;
 	margin: 0 0 25px 0;
 	padding: 0;
@@ -372,6 +372,7 @@ section#team {
 }
 
 #people-say p#lead-message {
+	font-size: 1.6rem;
 	margin-bottom: 80px;
 }
 
@@ -545,6 +546,63 @@ footer {
 
 @media screen and (max-width: 960px) {
 	
+	.container {
+		padding: 0 7%;
+	}
 	
+	header p {
+		font-size: 3rem;
+	}
 	
+	#team .team-member {
+		width: 21%;
+		margin: 0 2% 0 2%;
+	}
+
+	#team .round-image {
+		width: 160px;
+		height: 160px;
+	}
+
+	#team .team-member h2 {
+		font-size: 2.2rem;
+	}
+
+	#team .team-position {
+		font-size: 1.6rem;
+	}
+
+	.team-member p {
+		font-size: 1.4rem;
+	}
+	
+	.team-member li {
+		margin: 0 4px;
+	}
+	
+	#people-say article {
+		width: 44%;
+		margin: 0 2%;
+	}
+
+	.people-round {
+		margin-right: 3%;
+	}
+	
+	#people-say .comment-info {
+		width: 60%;
+	}
+	
+	#people-say .comment-info p.people-quote {
+		height: 160px;
+	}
+
+	.comment-info h4 {
+		font-size: 2.4rem;
+	}
+	
+	.footer-nav a {
+		font-size: 2rem;
+	}
+
 }
