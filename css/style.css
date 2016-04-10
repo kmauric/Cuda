@@ -31,9 +31,12 @@ header {
 
 header h1 {
 	float: left;
+	width: 50%;
+	text-align: left;
 }
 
 .main-nav {
+	width: 50%;
 	float: right;
 	text-align: center;
 }
@@ -74,7 +77,8 @@ header p {
 	margin: 140px 0 50px 0;
 }
 
-.heading-button {
+.heading-button:link,
+.heading-button:visited {
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -469,7 +473,7 @@ header p {
 .cust-form input[type=text]:focus::-webkit-input-placeholder,
 .cust-form textarea:focus::-webkit-input-placeholder{
 	color: transparent;
-} 
+}
 
 ::-webkit-input-placeholder, ::-webkit-textarea-placeholder {
 	color: #fff;
@@ -504,7 +508,7 @@ header p {
 
 .cust-form input[type=submit]:hover {
 	background: #2daed8 url('../img/img_button-shadow.png') bottom center no-repeat;
-}	
+}
 
 /***** FOOTER SECTION ******/
 
@@ -545,15 +549,15 @@ footer {
 /***** MEDIA QUERIES ******/
 
 @media screen and (max-width: 960px) {
-	
+
 	.container {
 		padding: 0 7%;
 	}
-	
+
 	header p {
 		font-size: 3rem;
 	}
-	
+
 	#team .team-member {
 		width: 21%;
 		margin: 0 2% 0 2%;
@@ -575,11 +579,11 @@ footer {
 	.team-member p {
 		font-size: 1.4rem;
 	}
-	
+
 	.team-member li {
 		margin: 0 4px;
 	}
-	
+
 	#people-say article {
 		width: 44%;
 		margin: 0 2%;
@@ -588,11 +592,11 @@ footer {
 	.people-round {
 		margin-right: 3%;
 	}
-	
+
 	#people-say .comment-info {
 		width: 60%;
 	}
-	
+
 	#people-say .comment-info p.people-quote {
 		height: 160px;
 	}
@@ -600,7 +604,7 @@ footer {
 	.comment-info h4 {
 		font-size: 2.4rem;
 	}
-	
+
 	.footer-nav a {
 		font-size: 2rem;
 	}
