@@ -1,3 +1,6 @@
+@import url('normalize.css');
+@import url('animate.css');
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -249,8 +252,16 @@ header p {
 	margin: 0 2%;
 }
 
-.circular-progress img {
-	margin-bottom: 30px;
+.circular-progress .skill-progress {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.circular-progress .percentile-radius {
+	font-size: 3.2em;
+	position: absolute;
+	top: 25%;
+	left: 30%;
 }
 
 .circular-progress h4 {
